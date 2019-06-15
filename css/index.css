@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -45,26 +46,35 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
+
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
+
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
 /* YOUR CODE STARTS HERE*/
+
 .container {
   width: 880px;
   /* TB LR */
   margin: 0 auto;
 }
+
 /* header */
+
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -84,37 +94,31 @@ header nav a {
   color: gray;
   text-decoration: none;
 }
+
+
 header nav a:hover {
   text-decoration: underline;
 }
+
+
 header nav a:first-child {
   margin-left: 0;
 }
+
+
 header nav a:last-child {
   margin-right: 0;
 }
 
 
-header .logo {
-  display: flex;
-  justify-content: absolute;
-
-}
-
-
 /* cta */
 
-.cta .cta-text {
-  display: inline-block;
-  vertical-align: top;
 .cta {
   display: flex;
   flex-flow: row nowrap;
   font-size: 77px;
-  margin-top: 120px;
   margin-top: 80px;
   text-align: center;
-  padding: 0px 75px;
   padding: 0px 30px;
   width: 100%;
   justify-content: space-between;
@@ -130,15 +134,12 @@ header .logo {
   border: 1px solid black;
   cursor: pointer;
 }
+
 .cta .cta-text button:hover {
   background: black;
   color: white;
 }
 
-.cta img {
-  display: inline-block;
-  margin-top: 69px;
-}
 /* main-content */
 
 .main-content {
@@ -155,16 +156,17 @@ header .logo {
 
 .main-content .top-content .text-content {
   width: 410px;
-  display: inline-block;
   margin-right: 34px;
 }
 
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
 }
+
 .main-content .middle-img {
   margin-top: 45px;
 }
+
 .main-content .bottom-content {
   margin-top: 37px;
   padding: 0 10px;
@@ -174,21 +176,23 @@ header .logo {
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: inline-block;
   margin-right: 12px;
 }
 
 .main-content .bottom-content .text-content:last-child {
   margin-right: 0;
 }
+
 .contact {
   margin-top: 57px;
   border-top: 1px solid black;
   padding: 39px 10px 0;
 }
+
 .contact p {
   margin: 20px 0;
 }
+
 footer {
   margin: 32px 0;
   text-align: center;
