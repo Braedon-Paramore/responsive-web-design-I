@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -62,19 +63,19 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
-
-/* YOUR CODE STARTS HERE*/
-
 .container {
   width: 880px;
   /* TB LR */
   margin: 0 auto;
 }
 
-/* header */
 
 
+
+
+/* HTML PAGE */
+
+/* header html lines 17-28 */
 header nav {
   display: flex;
   justify-content: space-between;
@@ -87,7 +88,6 @@ header nav {
   margin-left: 25px;
 }
 
-
 header nav a {
   margin-right: 60px;
   font-size: 14px;
@@ -95,24 +95,23 @@ header nav a {
   text-decoration: none;
 }
 
-
 header nav a:hover {
   text-decoration: underline;
 }
 
-
 header nav a:first-child {
   margin-left: 0;
 }
-
 
 header nav a:last-child {
   margin-right: 0;
 }
 
 
-/* cta */
 
+
+
+/* cta html lines 31-39  */
 .cta {
   display: flex;
   flex-flow: row nowrap;
@@ -140,8 +139,11 @@ header nav a:last-child {
   color: white;
 }
 
-/* main-content */
 
+
+
+
+/*  main-content html lines 42-71 */ 
 .main-content {
   border-top: 1px solid black;
   margin-top: 76px;
@@ -183,6 +185,11 @@ header nav a:last-child {
   margin-right: 0;
 }
 
+
+
+
+
+/* Contact html lines 74-84 */
 .contact {
   margin-top: 57px;
   border-top: 1px solid black;
@@ -193,6 +200,11 @@ header nav a:last-child {
   margin: 20px 0;
 }
 
+
+
+
+
+/* Footer html lines 87-89 */
 footer {
   margin: 32px 0;
   text-align: center;
