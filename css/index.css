@@ -220,7 +220,7 @@ footer {
 
 /* INDEX - MEDIA QUERIES FOR TABLET @ 800px */
 
-/* Header Nav Media Queries */
+/* Header Nav Media Queries @ 800px */
 @media (max-width: 800px) {
   .container {
     max-width: 100%;
@@ -271,8 +271,7 @@ footer {
 
 
 
-/* Main Content Media Queries */
-
+/* Main Content Media Queries @ 800px */
 @media(max-width: 800px) {
   .main-content {
     width: 100%;
@@ -286,6 +285,90 @@ footer {
 }
 
 
-/* 515px logo as anchor - make a tags go to a column 
-- a tags to have a bottom border 1px solid black - line height 3px
-text-align center */
+
+
+
+/* Index - Media Queries for Mobile @ 515px */
+
+
+
+
+/* Header Nav Media Queries @ 515px */
+@media(max-width: 515px) {
+   header nav {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+}
+
+@media(max-width: 515px) {
+  header nav a {
+    border-top: solid black 1px;
+    width: 100%;
+    text-align: center;
+    border-bottom: solid black 1px;
+    line-height: 3;
+  }
+}
+
+
+
+
+
+/* Banner Img Media Query */
+@media(max-width: 515px) {
+  .logo {
+    align-items: center;
+  }
+}
+
+
+
+
+@media(max-width: 515px) {
+  .cta {
+    margin-top: 0px;
+  }
+}
+
+@media(max-width: 515px) {
+  .main-content .top-content {
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 515px) {
+  .main-content{
+    padding-top: 5px;
+    width: 100%;
+  }
+}
+
+@media(max-width: 515px) {
+  .main-content .top-content .text-content {
+    margin-top: 40px;
+    width: 100%;
+  }
+}
+
+@media(max-width: 515px) {
+  .main-content .middle-img {
+    width: 100%;
+  }
+}
+
+@media(max-width: 515px) {
+  .main-content .bottom-content {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+}
+
+@media(max-width: 515px) {
+  .main-content .bottom-content .text-content {
+    margin-top: 40px;
+    width: 100%;
+  }
+}
